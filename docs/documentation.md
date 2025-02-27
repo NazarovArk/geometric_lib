@@ -69,7 +69,7 @@ perimeter(3, 4, 5) # 12
 
 ### Список коммитов:
 ```shell
-0a3f517 (HEAD -> documentations, origin/new_features_409124) I don't know why triangle.py dont added in commit before
+0a3f517 (HEAD -> documentations, origin/new_features_409124) I dont know why triangle.py dont added in commit before
 3912f84 fix perimeter in rectangle.py and add triange.py
 1d91c62 Add new file rectangle.py
 d078c8d (origin/main, origin/HEAD, main) L-03: Docs added
