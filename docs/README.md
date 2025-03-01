@@ -11,4 +11,4 @@
 
 Ссылка на полную документацию: [documentation.md](documentation.md)
 
-Ссылка на тесты: [testing.md](testing.md)
+Ссылка на тесты: [tests.md](tests.md)
