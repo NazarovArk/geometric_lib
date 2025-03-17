@@ -1,6 +1,6 @@
 # Библиотека для работы с геометрическими фигурами
 
-## Модуль circle.py
+## Модуль [circle.py](../src/circle.py)
 ### Функция area(r: float) -> float
 Вычисляет площадь круга с радиусом r. 
 Пример использования:
@@ -17,7 +17,7 @@ from circle import perimeter
 perimeter(5) # 31.41...
 ```
 
-## Модуль rectangle.py
+## Модуль [rectangle.py](../src/rectangle.py)
 ### Функция area(a: float, b: float) -> float
 Вычисляет площадь прямоугольника со сторонами a и b.
 Пример использования:
@@ -34,7 +34,7 @@ from rectangle import perimeter
 perimeter(5, 10) # 30
 ```
 
-## Модуль square.py
+## Модуль [square.py](../src/square.py)
 ### Функция area(a: float) -> float
 Вычисляет площадь квадрата со стороной a.
 Пример использования:
@@ -50,7 +50,7 @@ area(5) # 25
 from square import perimeter
 perimeter(5) # 20
 ```
-## Модуль triangle.py
+## Модуль [triangle.py](../src/triangle.py)
 ### Функция area(a: float, b: float, c: float) -> float
 Вычисляет площадь треугольника со сторонами a, b и c.
 Пример использования:
