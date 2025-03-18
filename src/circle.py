@@ -15,7 +15,7 @@ def area(r: float) -> float:
         raise ValueError('Радиус должен быть неотрицательным')
     if type(r) not in [int, float]:
         raise TypeError('Радиус должен быть числом')
-    return math.pi * r # wrong formula
+    return math.pi * r * r
 
 
 def perimeter(r):
