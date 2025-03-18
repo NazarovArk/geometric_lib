@@ -8,6 +8,7 @@ class TestTriangle(unittest.TestCase):
         self.assertAlmostEqual(area(5.5, 5.5), 15.125)
         self.assertAlmostEqual(area(3, 4), 6)
 
+    def test_negative_area(self):
         self.assertRaises(ValueError, area, -1, -1)
     
     def test_perimeter(self):
@@ -15,14 +16,16 @@ class TestTriangle(unittest.TestCase):
         self.assertAlmostEqual(perimeter(0, 0, 0), 0)
         self.assertAlmostEqual(perimeter(5.5, 5.5, 5.5), 16.5)
 
+    def test_wrong_value_perimeter(self):
         self.assertRaises(ValueError, perimeter, -1, -1, -1)
         self.assertRaises(ValueError, perimeter, 3, 4, 228)
 
-    def test_wrong_types(self):
+    def test_wrong_types_area(self):
         self.assertRaises(TypeError, area, '2', 2)
         self.assertRaises(TypeError, area, 2, '2')
         self.assertRaises(TypeError, area, '2', '2')
 
+    def test_wrong_types_perimeter(self):
         self.assertRaises(TypeError, perimeter, '2', 2, 2)
         self.assertRaises(TypeError, perimeter, 2, '2', 2)
         self.assertRaises(TypeError, perimeter, 2, 2, '2')
